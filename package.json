@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "description": "Responsive portfolio Website",
   "main": "index.js",
+  "homepage": "https://pratikagarwal03.github.io/Responsive-portfolio",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Pratik Agarwal",
   "license": "ISC",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "node-sass": "^4.11.0"
   }
 }
